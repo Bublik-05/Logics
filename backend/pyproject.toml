@@ -1,0 +1,19 @@
+[project]
+name = "logics-mvp"
+version = "0.1.0"
+description = "L.O.G.I.C.S. MVP — upload a document, ask a question, get an answer with a source citation."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "httpx>=0.27",
+    "chromadb>=0.5",
+    "pypdf>=4.2",
+    "python-multipart>=0.0.9",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
